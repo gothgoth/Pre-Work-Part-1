@@ -46,15 +46,16 @@ h1 {
 	grid-gap: 10px;
 	font-size: 14px;
 	text-align: center;
-	padding: 15px 15px 15px 15px;
+	padding: 15px 20px 15px 20px;
 	width: 300px;
 }
 
 .top {
+	height: 42px;
 	background-color: #424242;
 	border-radius: 3px;
 	color: #FFF;
-	padding: 10px 0px 10px 15px;
+	padding: 12px;
 }
 
 .triangle:after {
@@ -64,8 +65,8 @@ h1 {
 	border-right: 5px solid transparent;
 	border-top: 7px solid #424242;
 	border-bottom: 10px solid transparent;
-	right: 5px;
-	bottom: -35px;
+	left: 95px;
+	bottom: -17px;
 }
 
 .bar {
@@ -89,25 +90,34 @@ h1 {
 }
 
 .middle {
-	font-size: 14px;
 	color: #777;
 	padding: 10px 15px 10px 15px;
 	border-color: #eaeaea;
 	border-width: 1px;
+	border-bottom-width: 2px;
 	border-style: solid;
 	text-align: left;
+}
+
+.middle p {
+	padding: 3px;
+}
+
+#blue {
+	color: #20A1D4;
+	font-style: italic;
+	padding-left: 0px;
 }
 
 form {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 15px;
 	margin-top: 10px;
 	margin-bottom: 5px;
 }
 
 input {
-	width: 110px;
+	width: 105px;
 	height: 40px;
 	font-weight: bold;
 	font-size: 16px;
@@ -117,7 +127,7 @@ input {
 }
 
 button {
-	width: 110px;
+	width: 105px;
 	height: 40px;
 	justify-self: end;
 	color: #fff;
@@ -141,5 +151,6 @@ button {
 	border-width: 1px;
 	border-style: solid;
 	border-radius: 3px;
-	padding: 7px 7px 7px 7px;
+	border-bottom-width: 2px;
+	padding: 7px;
 }
