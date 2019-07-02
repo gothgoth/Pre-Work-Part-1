@@ -51,6 +51,7 @@ h1 {
 	width: 300px;
 	display: grid;
 	grid-gap: 10px;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 	font-size: 14px;
 	text-align: center;
 	padding: 15px 20px 15px 20px;
@@ -119,6 +120,7 @@ form {
 	margin-top: 10px;
 	margin-bottom: 5px;
 }
+
 
 input {
 	width: 105px;
