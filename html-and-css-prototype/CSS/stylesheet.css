@@ -41,38 +41,44 @@ h1 {
 
 /* Your CSS code goes here */
 
+.mockup-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .mockup {
+	width: 300px;
 	display: grid;
 	grid-gap: 10px;
 	font-size: 14px;
 	text-align: center;
 	padding: 15px 20px 15px 20px;
-	width: 300px;
 }
 
 .top {
 	height: 42px;
+	color: #FFF;
 	background-color: #424242;
 	border-radius: 3px;
-	color: #FFF;
 	padding: 12px;
 }
 
 .triangle:after {
 	content: "";
 	position: relative;
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;
 	border-top: 7px solid #424242;
+	border-right: 5px solid transparent;
 	border-bottom: 10px solid transparent;
+	border-left: 5px solid transparent;
 	left: 95px;
-	bottom: -17px;
+	bottom: -16px;
 }
 
 .bar {
 	display: flex;
 	flex-direction: row;
-	border: 1px solid #eaeaea;
+	border: 1px solid #D3D3D3;
 	border-bottom-style: none;
 	margin-bottom: -10px;
 }
@@ -86,17 +92,15 @@ h1 {
 .rightbar {
 	height: 10px;
 	width: 25%;
-	background-color: #eaeaea;
+	background-color: #F5F5F5;
 }
 
 .middle {
 	color: #777;
-	padding: 10px 15px 10px 15px;
-	border-color: #eaeaea;
-	border-width: 1px;
+	border: 1px solid #D3D3D3;
 	border-bottom-width: 2px;
-	border-style: solid;
 	text-align: left;
+	padding: 10px 15px 10px 15px;
 }
 
 .middle p {
@@ -119,8 +123,8 @@ form {
 input {
 	width: 105px;
 	height: 40px;
-	font-weight: bold;
 	font-size: 16px;
+	font-weight: bold;
 	border-style: solid;
 	border-color: #eaeaea;
 	border-radius: 3px;
@@ -129,12 +133,12 @@ input {
 button {
 	width: 105px;
 	height: 40px;
-	justify-self: end;
 	color: #fff;
 	font-size: 16px;
 	background-color: #1CBC2C;
 	border: none;
 	border-radius: 3px;
+	justify-self: end;
 }
 
 .bottom {
@@ -146,11 +150,9 @@ button {
 .b1, .b2 {
 	color: #777;
 	font-weight: bold;
-	background-color: #eaeaea;
-	border-color: #777;
-	border-width: 1px;
-	border-style: solid;
-	border-radius: 3px;
+	background-color: #F5F5F5;
+	border: 1px #D3D3D3 solid;
 	border-bottom-width: 2px;
+	border-radius: 3px;
 	padding: 7px;
 }
