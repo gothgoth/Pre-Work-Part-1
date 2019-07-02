@@ -40,3 +40,65 @@ h1 {
 */
 
 /* Your CSS code goes here */
+
+input {
+	width: 107px;
+	height: 40px;
+	font-weight: bold;
+	border-radius: 2.5px;
+}
+
+button {
+	width: 107px;
+	height: 40px;
+	color: #fff;
+	font-weight: bold;
+	background-color: #1CBC2C;
+	border: none;
+	border-radius: 2.5px;
+	margin-left: 15px;
+}
+
+
+.mockup {
+	font-size: 14px;
+	padding: 10px 15px 10px 15px;
+	width: 303px;
+	height: 334px;
+	border-color: #000;
+	border-width: 5px;
+	border-style: solid;
+	display: grid;
+	grid-gap: 15px 15px;
+}
+
+.top {
+	background-color: #424242;
+	border-radius: 2.5px;
+	color: #FFF;
+}
+
+.middle {
+	color: #777;
+	padding: 15px;
+	border-color: #eaeaea;
+	border-width: 1px;
+	border-style: solid;
+	text-align: left;
+
+}
+
+.bottom {
+	display:grid;
+	grid-template-columns: 125px 125px;
+	grid-column-gap: 15px;
+}
+
+.b1, .b2 {
+	color: #777;
+	font-weight: bold;
+	background-color: #eaeaea;
+	border-color: #777;
+	border-width: 1px;
+	border-style: solid;
+}
