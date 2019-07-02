@@ -41,33 +41,35 @@ h1 {
 
 /* Your CSS code goes here */
 
+/* This stylesheet arranges html elements into rows and columns using Flexbox and CSS Grid. */
+
 .mockup-container {
-	display: flex;
-	align-items: center;
+	display: flex; /* Flexbox to center the mockup on the page */
+	align-items: center; /* At first I was using <center> in the HTML */
 	justify-content: center;
 }
 
 .mockup {
 	width: 300px;
-	display: grid;
-	grid-gap: 10px;
+	display: grid; /* Grid defaults to one column */
+	grid-gap: 10px; /* Horizontal breaks between content */
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 	font-size: 14px;
 	text-align: center;
-	padding: 15px 20px 15px 20px;
+	padding: 15px 20px 15px 20px; /* Spaces out elements from their borders */
 }
 
-.top {
+.top { /* Makes a speech bubble shape with .triangle */
 	height: 42px;
 	color: #FFF;
 	background-color: #424242;
-	border-radius: 3px;
+	border-radius: 3px; /* Rounded edges */
 	padding: 12px;
 }
 
-.triangle:after {
+.triangle::after { /* Creates and positions a triangle */
 	content: "";
-	position: relative;
+	position: relative; /* Makes the triangle stick to the top div */
 	border-top: 7px solid #424242;
 	border-right: 5px solid transparent;
 	border-bottom: 10px solid transparent;
@@ -108,7 +110,7 @@ h1 {
 	padding: 3px;
 }
 
-#blue {
+#blue { /* high specificity */
 	color: #20A1D4;
 	font-style: italic;
 	padding-left: 0px;
@@ -140,7 +142,7 @@ button {
 	background-color: #1CBC2C;
 	border: none;
 	border-radius: 3px;
-	justify-self: end;
+	justify-self: end; /*Move it to the right*/
 }
 
 .bottom {
@@ -149,7 +151,7 @@ button {
 	grid-gap: 15px;
 }
 
-.b1, .b2 {
+.b1 { /* Targets two elements with same styling */
 	color: #777;
 	font-weight: bold;
 	background-color: #F5F5F5;
